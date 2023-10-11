@@ -37,6 +37,8 @@ public class CalcSenha {
             forca -= (patternConsecutiveCount(REGEX_LOWERCASE, senha) * 2 );
             forca -= (patternConsecutiveCount(REGEX_NUMBER, senha) * 2 );
 
+            //TODO implement consecutive chars requirement
+
         }
         return forca;
     }
